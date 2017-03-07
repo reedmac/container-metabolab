@@ -23,12 +23,15 @@ Clone the container:
 
 docker clone https://github.com/reedmac/container-metabolab
 
+
 Build the docker image:
 
 docker image rm --force imeta_image1
 docker build -t imeta_image1 .
 
+
 Prepare the data directory. It must contain your metabolab script defining how the data should be processed. This must be called container_script.ml to match the name in Dockerfile.
+
 
 Run the container without licence key:
 
@@ -39,13 +42,16 @@ docker  run  -v /path/to/mydatadirectory:`pwd` -w `pwd` -i --name imeta_containe
 http://beregond.bham.ac.uk/~ludwigc/metabolab_intro/metabolab/license.html
 & they will email you the licence key.
 
+
 Remove the old container you created:
 
 docker rm imeta_container1
 
+
 Create the container again but adding the licence key to the end of the command:
 
 docker  run  -v /path/to/mydatadirectory:`pwd` -w `pwd` -i --name imeta_container1 imeta_image1  licensekey
+
 
 The results should now be in your data directory.
 
