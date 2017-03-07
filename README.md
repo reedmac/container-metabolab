@@ -22,7 +22,7 @@ Bruker and Agilent Spectrometers
 
 ## Tool Authors
 
-Christian Ludwig,
+[Christian Ludwig](https://github/ludwigc),
 Ulrich Guenther
 
 
