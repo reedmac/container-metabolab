@@ -18,7 +18,7 @@ Version: 0.99.6.1
 +
 ## Instrument Data Types
 +
-- Bruker and Agilent Spectrometers 
+Bruker and Agilent Spectrometers 
 +
 ## Tool Authors
 +
