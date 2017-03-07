@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<productAdditionalComps>
+   <dependsOn>
+      <component>
+         <name>MetaboLabLinux</name>
+         <locale/>
+         <platformList>
+            <platform>glnxa64</platform>
+         </platformList>
+         <version>0.9956</version>
+      </component>
+   </dependsOn>
+   <isControllingProduct>true</isControllingProduct>
+   <platform>glnxa64</platform>
+   <productName>MetaboLabLinux</productName>
+   <productNumber>5000</productNumber>
+   <productBaseCode>MetaboLabLinux</productBaseCode>
+   <productVersion>0.9956</productVersion>
+   <releaseFamily>R2016b</releaseFamily>
+   <releaseDescription>R2016b</releaseDescription>
+</productAdditionalComps>
