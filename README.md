@@ -1,6 +1,6 @@
 # container-metabolab
 
-# MetaboLab 
+# A container for a non-GUI version of MetaboLab 
 
 ## Version: 0.99.6.1 
 
