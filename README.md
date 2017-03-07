@@ -71,8 +71,6 @@ Ulrich Guenther
 
 [Michelle Reed](https://github.com/reedmac) (University of Birmingham)
 
-## Git Repository
-
 
 ## Publications
 
