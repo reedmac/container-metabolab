@@ -1,14 +1,14 @@
 # container-metabolab
-+
+
 # MetaboLab 
-+
-Version: 0.99.6.1 
-+
+
+## Version: 0.99.6.1 
+
 ## Short Description
  Software for processing and analysing NMR data
-+
+
 ## Description
-+
+
 +
 ## Key features
 +
