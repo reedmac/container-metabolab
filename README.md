@@ -1,44 +1,44 @@
 # container-metabolab
++
 # MetaboLab 
-# testing
++
 Version: 0.99.6.1 
 +
 ## Short Description
  Software for processing and analysing NMR data
 +
-+## Description
+## Description
 +
 +
-+## Key features
+## Key features
 +
 +
-+## Approaches
+## Approaches
 +
 +
-+## Instrument Data Types
+## Instrument Data Types
 +
-+- Bruker and Agilent Spectrometers 
+- Bruker and Agilent Spectrometers 
 +
-+## Tool Authors
+## Tool Authors
 +
 +Christian Ludwig
 +Ulrich Guenther
 +
 +
-+## Container Contributors
+## Container Contributors
 +
 +- [Michelle Reed](https://github.com/reedmac) (University of Birmingham)
 +
-+## Git Repository
+## Git Repository
 +
 +
-+## Publications
-+
-+-  Gatto L, Lilley K (2012): MSnbase - an R/Bioconductor package for isobaric tagged mass spectrometry data visualization, processing and quantitation. Bioinformatics 28: 288-289.
+## Publications
 +
 +
-+- U.L. Günther, C. Ludwig, H. Rüterjans NMRLAB - Advanced NMR Data Processing in Matlab. J Magn Reson, 145(2), 201-208 (2000)
 +
-+- C. Ludwig and U. Günther MetaboLab - advanced NMR data processing and analysis for metabolomics. BMC Bioinformatics, 12, 366, (2011)
+- U.L. Günther, C. Ludwig, H. Rüterjans NMRLAB - Advanced NMR Data Processing in Matlab. J Magn Reson, 145(2), 201-208 (2000)
++
+- C. Ludwig and U. Günther MetaboLab - advanced NMR data processing and analysis for metabolomics. BMC Bioinformatics, 12, 366, (2011)
 +
 +
