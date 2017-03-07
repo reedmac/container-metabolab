@@ -9,6 +9,7 @@
 
 ## Description
 The MetaboLab software is an integrated software package for NMR data processing and analysis, closely linked to the previously developed NMRLab software. It includes tools for batch processing and gives access to a wealth of algorithms available in the MATLAB framework. Algorithms within MetaboLab help to optimize the flow of metabolomics data preparation for statistical analysis. The combination of an intuitive graphical user interface along with advanced data processing algorithms facilitates the use of MetaboLab in a broader metabolomics context.
+
 This software has been adapted to function without a graphical user interface to be used here in a docker container.
 
 ## Key features
@@ -17,7 +18,6 @@ Automated phase correction, alignment of spectra, automated baseline correction,
 
 
 ## To run the container:
-Make sure that your metabolab script name (*.ml) matches that in the Dockefile
 
 Clone the container:
 docker clone https://github.com/reedmac/container-metabolab
@@ -35,10 +35,10 @@ docker  run  -v /path/to/mydatadirectory:`pwd` -w `pwd` -i --name imeta_containe
 http://beregond.bham.ac.uk/~ludwigc/metabolab_intro/metabolab/license.html
 & they will email you the licence key.
 
-remove the old container you created:
+Remove the old container you created:
 docker rm imeta_container1
 
-create the container again but adding the licence key to the end of the command:
+Create the container again but adding the licence key to the end of the command:
 docker  run  -v /path/to/mydatadirectory:`pwd` -w `pwd` -i --name imeta_container1 imeta_image1  licensekey
 
 The results should now be in your data directory.
