@@ -27,6 +27,7 @@ docker clone https://github.com/reedmac/container-metabolab
 Build the docker image:
 
 docker image rm --force imeta_image1
+
 docker build -t imeta_image1 .
 
 Prepare the data directory:
@@ -37,6 +38,7 @@ It must contain your metabolab script defining how the data should be processed.
 Run the container:
 
 docker rm imeta_container1
+
 docker  run  -t -v  /path/to/your/data/directory:/mydata -w /mydata --name imeta_container1 imeta_image1
 
 The results should now be in your data directory.
