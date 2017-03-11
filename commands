@@ -1,0 +1,5 @@
+docker image rm --force imeta_image1
+docker build -t imeta_image1 .
+docker rm imeta_container1
+docker  run  -t -v  /ldata/reedma/docker_stuff/example_data:/mydata -w /mydata --name imeta_container1 imeta_image1
+
