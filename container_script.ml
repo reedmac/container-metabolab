@@ -60,7 +60,7 @@ metabolabParameters
     noiseThreshold:  4       % percentage of maximum signal height for noise filtering
     noiseStart:      9.5     % start of noise region [ppm]
     noiseEnd:        10      % end of noise region [ppm]
-    exportPath:      .      % path for mat/bruker/tree file export
+    exportPath:      /mydata      % path for mat/bruker/tree file export
     brukerExpNumbers: bruker
     exportFile:      testExport_gui2  % directory name for mat/bruker/tree file export
     moveSpectraBetweenWorkspaces: 0                         % Avoid duplication of data to save memory (if 1)
