@@ -21,7 +21,7 @@ Automated phase correction, alignment of spectra, automated baseline correction,
 
 Clone the container:
 
-docker clone https://github.com/reedmac/container-metabolab
+git clone https://github.com/reedmac/container-metabolab
 
 
 Build the docker image:
