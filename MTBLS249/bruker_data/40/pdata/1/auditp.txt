@@ -1,0 +1,34 @@
+##TITLE= Audit trail, TOPSPIN		Version 1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= reedma
+$$ /opt/data/reedma/nmr/AV_bserum/40/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, VERSION, WHAT)
+(   1,<2007-11-28 18:38:19.848 +0000>,<reedma>,<domitian>,<TOPSPIN 1.3>,
+      <created by zg, POWCHK disabled, PULCHK disabled
+       configuration hash MD5:
+       42 88 39 75 67 C4 34 73 FF 93 CC 19 11 63 A5 15
+       data hash MD5: 16K * 32
+       E6 40 2D 85 90 88 F1 19 B8 7D 83 70 D8 B4 1C D8>)
+(   2,<2007-11-28 18:38:23.659 +0000>,<reedma>,<domitian>,<TOPSPIN 1.3>,
+      <Start of raw data processing
+       xfb same F2: SI = 16K WDW = 3 SSB = 0 FT_mod = 6 PKNL = 1 PHC0 = 72.65 PHC1 = 0 F1: SI = 128 WDW = 3 SSB = 0 FT_mod = 6 PH_mod = 2
+       data hash MD5: 16K * 128
+       0B ED E8 D9 DA FC 59 9B 76 B7 D1 48 5D A6 81 F3>)
+(   3,<2007-11-28 18:38:23.778 +0000>,<reedma>,<domitian>,<TOPSPIN 1.3>,
+      <tilt F2: ALPHA = 0
+       data hash MD5: 16K * 128
+       EB 05 E2 71 C7 4A 13 08 2D 1C 54 D0 B8 BC E5 4B>)
+(   4,<2007-11-28 18:38:23.958 +0000>,<reedma>,<domitian>,<TOPSPIN 1.3>,
+      <symj
+       data hash MD5: 16K * 128
+       6D 1C 4A 84 61 1D A7 0F E4 5A 55 05 14 3A 98 7D>)
+(   5,<2007-11-28 18:38:24.032 +0000>,<reedma>,<domitian>,<TOPSPIN 1.3>,
+      <user comment:
+       ICON-NMR User ID: reedma
+       data hash MD5: 16K * 128
+       6D 1C 4A 84 61 1D A7 0F E4 5A 55 05 14 3A 98 7D>)
+##END=
+
+$$ hash MD5
+$$ D2 BE 16 6B 8A D1 4D C5 DB 88 BE 19 BD 5C 09 44

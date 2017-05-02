@@ -1,0 +1,7 @@
+##TITLE= Parameter file, Bruker DataServer ($Id: ParamWrapper.c,v 1.57 2005/01/28 14:38:04 prs Exp $)
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##ORIGIN= Bruker BioSpin GmbH
+##$MULTDISP= /opt/data/reedma/nmr/AV_bserum/217/pdata/1|/opt/data/reedma/nmr/AV_bserum/219/pdata/1|/opt/data/reedma/nmr/AV_bserum/221/pdata/1|/opt/data/reedma/nmr/AV_bserum/223/pdata/1|/opt/data/reedma/nmr/AV_bserum/225/pdata/1|/opt/data/reedma/nmr/AV_bserum/227/pdata/1|/opt/data/reedma/nmr/AV_bserum/229/pdata/1|/opt/data/reedma/nmr/AV_bserum/231/pdata/1|/opt/data/reedma/nmr/AV_bserum/233/pdata/1|/opt/data/reedma/nmr/AV_bserum/235/pdata/1|/opt/data/reedma/nmr/AV_bserum/237/pdata/1|/opt/data/reedma/nmr/AV_bserum/239/pdata/1|/opt/data/reedma/nmr/AV_bserum/241/pdata/1|/opt/data/reedma/nmr/AV_bserum/243/pdata/1|/opt/data/reedma/nmr/AV_bserum/245/pdata/1|/opt/data/reedma/nmr/AV_bserum/247/pdata/1|/opt/data/reedma/nmr/AV_bserum/249/pdata/1|/opt/data/reedma/nmr/AV_bserum/251/pdata/1
+##OWNER= reedma
+##END=

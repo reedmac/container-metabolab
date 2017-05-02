@@ -1,4 +1,6 @@
+# install docker on your computer
 # download Dockerfile etc from https://github.com/reedmac/container-metabolab
+# go to directory containing the Dockerfile
 docker image rm --force imeta_image1
 docker build -t imeta_image1 .
 docker rm -f imeta_container1

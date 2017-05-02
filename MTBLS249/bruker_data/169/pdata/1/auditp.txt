@@ -1,0 +1,26 @@
+##TITLE= Audit trail, TOPSPIN		Version 1.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= reedma
+$$ /opt/data/reedma/nmr/AV_bserum/169/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, VERSION, WHAT)
+(   1,<2007-12-01 12:22:17.770 +0000>,<reedma>,<domitian>,<TOPSPIN 1.3>,
+      <created by zg, POWCHK disabled, PULCHK disabled
+       configuration hash MD5:
+       42 88 39 75 67 C4 34 73 FF 93 CC 19 11 63 A5 15
+       data hash MD5: 16K
+       CB 94 0F C9 F0 00 6F 89 05 D9 40 55 BF 70 0A 4B>)
+(   2,<2007-12-01 12:22:24.114 +0000>,<reedma>,<domitian>,<TOPSPIN 1.3>,
+      <Start of raw data processing
+       efp LB = 0.5 FT_mod = 6 PKNL = 1 PHC0 = 83.47662 PHC1 = -3.2 SI = 64K 
+       data hash MD5: 64K
+       E7 21 F1 9D 9A 6D 47 21 34 31 8D 13 03 AB 85 DB>)
+(   3,<2007-12-01 12:22:24.158 +0000>,<reedma>,<domitian>,<TOPSPIN 1.3>,
+      <user comment:
+       ICON-NMR User ID: reedma
+       data hash MD5: 64K
+       E7 21 F1 9D 9A 6D 47 21 34 31 8D 13 03 AB 85 DB>)
+##END=
+
+$$ hash MD5
+$$ 75 02 D3 37 1A B1 C5 51 65 69 57 34 58 DC 5A 52
