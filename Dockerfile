@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
 
-LABEL software.version="0.99.6.1"
+LABEL software.version="0.99.7.2"
 LABEL version="0.1"
 LABEL software="MetaboLab"
 
