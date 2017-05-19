@@ -83,6 +83,7 @@ metabolabCommands
     exportBruker:       1
     exportMatFile:      1
     exportTreeFile:     0
+    exportBatmanFile:   1
 endMetabolabCommands
 
 % Create IsaTab file
