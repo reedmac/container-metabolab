@@ -50,12 +50,12 @@ This software has been adapted to function without a graphical user interface in
 
 ## Installation
 
-###Clone the container:
+### Clone the container:
 
 ```bash
 git clone https://github.com/reedmac/container-metabolab
 ```
-###Initial testing using the MTBLS1_small dataset:
+### Initial testing using the MTBLS1_small dataset:
 
 Change the paths in the 'commands' text file in the MTBLS1_small directory to match the paths to the directory containing your Dockerfile and the MTBLS1_small directory.
 Make the entrypoint in the Dockerfile be:
@@ -68,7 +68,7 @@ Execute commands script:
 ```
 Examine the files 'output_check' and 'installed_ok' in MTBLS1_small for error messages.
 
-###Processing your own data:
+### Processing your own data:
 
 First, make sure the entrypoint in the Dockerfile is:
 
