@@ -1,7 +1,0 @@
-##TITLE= Parameter file, Bruker DataServer ($Id: ParamWrapper.c,v 1.57 2005/01/28 14:38:04 prs Exp $)
-##JCAMPDX= 5.0
-##DATATYPE= Parameter Values
-##ORIGIN= Bruker BioSpin GmbH
-##$MULTDISP= 
-##OWNER= reedma
-##END=
