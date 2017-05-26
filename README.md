@@ -59,7 +59,9 @@ Initial testing using the MTBLS1_small dataset:
 
 Change the paths in the 'commands' text file in the MTBLS1_small directory to match the paths to the directory containing your Dockerfile and the MTBLS1_small directory.
 Make the entrypoint in the Dockerfile be:
+
    ENTRYPOINT ["/usr/local/bin/runTest1.sh"]
+
 Execute commands script:
 ```bash
 ./commands 1
@@ -67,7 +69,12 @@ Execute commands script:
 Examine the files 'output_check' and 'installed_ok' in MTBLS1_small for error messages.
 
 Processing your own data:
-First, remove any old images and build the docker image:
+
+First, make sure the entrypoint in the Dockerfile is:
+
+ENTRYPOINT ["/usr/local/bin/metabolab1d/run_MetaboLab1D.sh","/usr/local/bin/MATLAB_Runtime/v91","/mydata/container_script.ml"]
+
+Secondly, remove any old images and build the docker image:
 
 ```bash
 docker image rm --force imeta_image1
@@ -77,7 +84,7 @@ docker image rm --force imeta_image1
 docker build -t imeta_image1 .
 ```
 
-Second, prepare the data directory:
+Next, prepare the data directory:
 
 It must contain your metabolab script defining how the data should be processed. This must be called container_script.ml to match the name in Dockerfile.
 
