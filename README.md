@@ -5,7 +5,7 @@ Version: 0.99.7.6
 
 ## Short Description
 
-A container for a non-GUI version of MetaboLab, software for processing and analysing NMR data
+A container for a non-GUI version of MetaboLab, software for processing and analysing NMR data.
 
 ## Description
 
@@ -15,7 +15,7 @@ This software has been adapted to function without a graphical user interface in
 
 ## Key features
 
-- NMR processing and pre-processing for multi-variate analysis
+- NMR processing and pre-processing for multi-variate analysis.
 
 ## Functionality
 
@@ -27,13 +27,13 @@ This software has been adapted to function without a graphical user interface in
 
 ## Instrument Data Types
 
-- The MetaboLab container is designed to process 1D data from Bruker and Agilent Spectrometers 
+- The MetaboLab container is designed to process 1D data from Bruker and Agilent Spectrometers. 
 
 
 ## Tool Authors
 
-- [Christian Ludwig](https://github.com/ludwigc),
-- Ulrich Guenther
+- [Christian Ludwig](https://github.com/ludwigc) (University of Birmingham)
+- Ulrich Guenther (University of Birmingham)
 
 
 ## Container Contributors
