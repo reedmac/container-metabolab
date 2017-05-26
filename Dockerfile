@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
 
-LABEL software.version="0.99.7.2"
+LABEL software.version="0.99.7.6"
 LABEL version="0.1"
 LABEL software="MetaboLab"
 
@@ -16,9 +16,11 @@ rm -r /usr/local/bin/MATLAB_Runtime.zip && \
 apt-get purge -y wget zip unzip && \
 apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+ADD runTest1.sh /usr/local/bin/runTest1.sh
+RUN chmod +x /usr/local/bin/runTest1.sh
 
-#ENV LD_LIBRARY_PATH=/usr/lib/x86_64-linux-gnu/:/usr/local/bin/MATLAB_Runtime/v91/runtime/glnxa64:/usr/local/bin/MATLAB_Runtime/v91/bin/glnxa64:/usr/local/bin/MATLAB_Runtime/v91/sys/os/glnxa64
 
-ENTRYPOINT ["/usr/local/bin/metabolab1d/run_MetaboLab1D.sh","/usr/local/bin/MATLAB_Runtime/v91","/mydata/container_script.ml"]
+#ENTRYPOINT ["/usr/local/bin/metabolab1d/run_MetaboLab1D.sh","/usr/local/bin/MATLAB_Runtime/v91","/mydata/container_script.ml"]
+ENTRYPOINT ["/usr/local/bin/runTest1.sh"]
 
 
