@@ -66,7 +66,8 @@ Execute commands script:
 ```
 Examine the files 'output_check' and 'installed_ok' in MTBLS1_small for error messages.
 
-Build the docker image:
+Processing your own data:
+First, remove any old images and build the docker image:
 
 ```bash
 docker image rm --force imeta_image1
@@ -76,12 +77,12 @@ docker image rm --force imeta_image1
 docker build -t imeta_image1 .
 ```
 
-Prepare the data directory:
+Second, prepare the data directory:
 
 It must contain your metabolab script defining how the data should be processed. This must be called container_script.ml to match the name in Dockerfile.
 
 
-Run the container:
+Finally remove any old container and run the container:
 
 ```bash
 docker rm imeta_container1
