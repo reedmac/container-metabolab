@@ -46,7 +46,7 @@ This software has been adapted to function without a graphical user interface in
 
 ##  Git Repository
 
-- https://github.com/reedmac/container-metabolab
+- https://github.com/phnmnl/container-metabolab
 
 ## Installation
 
